@@ -51,6 +51,7 @@ let boy = {
         console.log(this) //여기서 this는 객체를 의미
     }
 };
+// git email 설정 해결
 boy.sayThis();  //->오류+윈도우:화살표함수에서 this는 위도우 전역객체를 가리키게 됨.
 
  
